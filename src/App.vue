@@ -1,24 +1,16 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <Navigacija/>
-      <CentralniDio/>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-      <router-link to="/oke"> Oke</router-link>
-    </div>dz
-    <router-view/>
+    <Hello/>
   </div>
 </template>
 
 <script>
-import Navigacija from "./components/Navigacija.vue";
-import CentralniDio from "./components/CentralniDio.vue";
+import Hello from "./components/Hello.vue";
+
 
 export default {
   components: {
-    Navigacija,
-    CentralniDio
+    Hello
   }
 }
 </script>
