@@ -16,24 +16,12 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+body {
+  background-attachment: fixed;
+  background-size: cover;
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+    background: #1f3044;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1f3044, #646c79);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1f3044, #646c79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 </style>
