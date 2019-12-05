@@ -1,19 +1,9 @@
 <template>
   <div id="app">
-    <Hello/>
+
+    <router-view/>
   </div>
 </template>
-
-<script>
-import Hello from "./components/Hello.vue";
-
-
-export default {
-  components: {
-    Hello
-  }
-}
-</script>
 
 <style>
 body {

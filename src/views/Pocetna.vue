@@ -1,14 +1,16 @@
 <template>
-  <div class="pocetna">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+	<div class="pocetna">
+		<Intro/>
+	</div>
 </template>
 
 <script>
-// @ is an alias to /src
+	import Intro from '@/components/Intro.vue'
 
 export default {
   name: 'Pocetna',
+  components:{
+	Intro
+  }
 }
 </script>
