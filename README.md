@@ -1,7 +1,6 @@
 # Tim-3 Bingo game
 
 Hello there! This is bingo game that is made by SPARK Team 3. We hope you like it :)
-You can try our game on this link : https://sparkteam3.000webhostapp.com/#/
 
 ## How it works?
 ```
